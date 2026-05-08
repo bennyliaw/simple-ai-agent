@@ -22,3 +22,6 @@ ENV/
 
 # pytest
 .pytest_cache/
+
+# Claude Code
+.claude/
