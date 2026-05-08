@@ -1,0 +1,15 @@
+[project]
+name = "simple-agent1"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic",
+    "openai>=2.36.0",
+    "python-dotenv",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+]
